@@ -12,7 +12,7 @@ let g:colors_name = "vim-monokai-tasty"
 
 " User Options
 if !exists("g:vim_monokai_tasty_italic")
-    let g:vim_monokai_tasty_italic = 0
+  let g:vim_monokai_tasty_italic = 0
 endif
 
 if g:vim_monokai_tasty_italic
@@ -82,7 +82,7 @@ call Highlight("CursorColumn", s:none, s:darker_grey, s:none)
 call Highlight("ColorColumn", s:none, s:none, s:none)
 call Highlight("Conceal", s:none, s:none, s:none)
 call Highlight("CursorLine", s:none, s:darker_grey, s:none)
-call Highlight("Type", s:none, s:none, s:none)
+call Highlight("Type", s:light_blue, s:none, s:none)
 
 call Highlight("Visual", s:none, s:dark_grey, s:none)
 call Highlight("TabLine", s:light_grey, s:dark_grey, s:underline)
